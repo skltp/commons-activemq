@@ -79,9 +79,11 @@
             the JVM. For more information, see:
 
             http://activemq.apache.org/jmx.html
+            
+            HT 130605. Added createConnector="true" to enable remote access.
         -->
         <managementContext>
-            <managementContext createConnector="false"/>
+            <managementContext createConnector="true"/>
         </managementContext>
 
         <!--
